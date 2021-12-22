@@ -1,0 +1,21 @@
+
+@mixin flex($flex-alignItems: flex-start, $flex-justifyContent: flex-start, $flex-flexWrap: nowrap, $flex-flexDirection: row){
+    display: flex;
+    flex-direction: $flex-flexDirection;
+    align-items: $flex-alignItems;
+    justify-content: $flex-justifyContent;
+    flex-wrap: $flex-flexWrap;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    position: relative;
+    background: #232323;
+}
+
